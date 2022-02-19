@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FA6552627C03439005A9C49 /* CesaroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6552527C03439005A9C49 /* CesaroView.swift */; };
+		8FA6552727C03439005A9C49 /* CesaroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6552527C03439005A9C49 /* CesaroView.swift */; };
 		8FF123AD27B729DD00E99EB3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123AC27B729DD00E99EB3 /* Tests_iOS.swift */; };
 		8FF123AF27B729DD00E99EB3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123AE27B729DD00E99EB3 /* Tests_iOSLaunchTests.swift */; };
 		8FF123B927B729DD00E99EB3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123B827B729DD00E99EB3 /* Tests_macOS.swift */; };
@@ -17,6 +19,8 @@
 		8FF123BF27B729DD00E99EB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1239527B729DD00E99EB3 /* ContentView.swift */; };
 		8FF123C027B729DD00E99EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF1239627B729DD00E99EB3 /* Assets.xcassets */; };
 		8FF123C127B729DD00E99EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF1239627B729DD00E99EB3 /* Assets.xcassets */; };
+		8FF123D127B72DC900E99EB3 /* Drawing View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123D027B72DC900E99EB3 /* Drawing View.swift */; };
+		8FF123D227B72DC900E99EB3 /* Drawing View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123D027B72DC900E99EB3 /* Drawing View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FA6552527C03439005A9C49 /* CesaroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesaroView.swift; sourceTree = "<group>"; };
 		8FF1239427B729DD00E99EB3 /* PHYS_440_Assignment_3_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYS_440_Assignment_3_2App.swift; sourceTree = "<group>"; };
 		8FF1239527B729DD00E99EB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FF1239627B729DD00E99EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		8FF123B427B729DD00E99EB3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF123B827B729DD00E99EB3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8FF123BA27B729DD00E99EB3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8FF123D027B72DC900E99EB3 /* Drawing View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drawing View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				8FF1239427B729DD00E99EB3 /* PHYS_440_Assignment_3_2App.swift */,
+				8FA6552527C03439005A9C49 /* CesaroView.swift */,
 				8FF1239527B729DD00E99EB3 /* ContentView.swift */,
 				8FF1239627B729DD00E99EB3 /* Assets.xcassets */,
+				8FF123D027B72DC900E99EB3 /* Drawing View.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF123D127B72DC900E99EB3 /* Drawing View.swift in Sources */,
 				8FF123BE27B729DD00E99EB3 /* ContentView.swift in Sources */,
 				8FF123BC27B729DD00E99EB3 /* PHYS_440_Assignment_3_2App.swift in Sources */,
+				8FA6552627C03439005A9C49 /* CesaroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF123D227B72DC900E99EB3 /* Drawing View.swift in Sources */,
 				8FF123BF27B729DD00E99EB3 /* ContentView.swift in Sources */,
 				8FF123BD27B729DD00E99EB3 /* PHYS_440_Assignment_3_2App.swift in Sources */,
+				8FA6552727C03439005A9C49 /* CesaroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
